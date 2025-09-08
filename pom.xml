@@ -101,6 +101,13 @@
 				</configuration>
 			</plugin>
 
+			<!-- For SonarQube -->
+			<plugin>
+            	<groupId>org.sonarsource.scanner.maven</groupId>
+            	<artifactId>sonar-maven-plugin</artifactId>
+            	<version>4.0.0.4121</version>
+            </plugin>
+
 			<!-- For Tomcat -->
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
